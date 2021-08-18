@@ -5,7 +5,7 @@
 <table style=widht="100%" height="100%" align="center">
   <tr>
     <td><h2>RESULT</h2></td>
-    <td rowspan="2"><h2>LAST UPDATE</h2></td>
+    <td rowspan="4"><h2>LAST UPDATE</h2></td>
   </tr>
   <tr>
     <td> <h3> Humidity </h3><br>
