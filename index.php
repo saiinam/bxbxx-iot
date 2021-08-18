@@ -5,7 +5,6 @@
 <table style="width:100%">
   <tr>
     <td><h2>RESULT</td>
-    <td><h2>LAST UPDATE</h2>
   </td>		
   </tr>
   <tr>
