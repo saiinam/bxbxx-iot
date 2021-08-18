@@ -1,3 +1,4 @@
+<div class="jumbotron">
 <body onload="JavaScript:timedRefresh(15000);"> 
   
 <h1> Name : Kotchakorn Somsanong <br> ID : 62100029 </h1>
@@ -39,3 +40,4 @@
 </table>
  
 </body>
+</div>
