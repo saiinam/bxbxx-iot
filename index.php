@@ -23,7 +23,8 @@
         }
     </script>
     </script>
-        <h3> <?php echo "Humidity : ".$Temperature ?> %
+        <h2>LAST UPDATE</h2>
+        <br> <h3> <?php echo "Humidity : ".$Temperature ?> %
         <br> <?php echo " Temperature : ".$Humidity ?> °C </h3></br>
     </td>
   </tr>
