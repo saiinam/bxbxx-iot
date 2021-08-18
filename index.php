@@ -16,8 +16,8 @@
         }
   </script>
   </script>
-        <br> <?php echo "Humidity : ".$Temperature ?> % </br> 
-        <br> <?php echo " Temperature : ".$Humidity ?> °C </br>
+        <br><h3> <?php echo "Humidity : ".$Temperature ?> % </br> 
+      <br> <?php echo " Temperature : ".$Humidity ?> °C </h3></br>
   </td>		
   </tr>
   <tr>
