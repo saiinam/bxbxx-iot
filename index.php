@@ -13,6 +13,18 @@
     </td>	
     <td>
       
+  <?php
+    $Temperature = file_get_contents('https://api.thingspeak.com/channels/1458410/fields/1/last.txt');
+    $Humidity = file_get_contents('https://api.thingspeak.com/channels/1458410/fields/2/last.txt');
+  ?>
+    <script type="text/JavaScript">
+      function timedRefresh(timeoutPeriod) {
+      setTimeout("location.reload(true);",timeoutPeriod);
+    }
+  </script>
+  </script>
+        <br> <?php echo "Humidity : ".$Temperature ?> % </br> 
+        <br> <?php echo " Temperature : ".$Humidity ?> °C </br>
    </td>
   </tr>
 
@@ -28,17 +40,5 @@
     </td>
   </tr>
 </table>
-
-  <?php
-    $Temperature = file_get_contents('https://api.thingspeak.com/channels/1458410/fields/1/last.txt');
-    $Humidity = file_get_contents('https://api.thingspeak.com/channels/1458410/fields/2/last.txt');
-  ?>
-    <script type="text/JavaScript">
-      function timedRefresh(timeoutPeriod) {
-      setTimeout("location.reload(true);",timeoutPeriod);
-    }
-  </script>
-  </script>
-        <br> <?php echo "Humidity : ".$Temperature ?> % </br> 
-        <br> <?php echo " Temperature : ".$Humidity ?> °C </br> 
+ 
 </body>
