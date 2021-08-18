@@ -9,7 +9,8 @@
   </tr>
   <tr>
     <td> <h3> Humidity </h3><br>
-        <iframe frameborder="0" style="height:300px;width:500px" src="https://thingspeak.com/channels/1458410/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15">"Humidity"></iframe>
+        <iframe frameborder="0" style="height:300px;width:500px"
+        src="https://thingspeak.com/channels/1458410/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15">"Humidity"></iframe>
     </td>
     <td>
       <?php
@@ -27,7 +28,8 @@
     </tr>
     <tr>
         <td><h3> Temperature </h3><br>
-        <iframe frameborder="0" style="height:300px;width:500px" src="https://thingspeak.com/channels/1458410/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15">"Temperature"></iframe>
+        <iframe frameborder="0" style="height:300px;width:500px" 
+        src="https://thingspeak.com/channels/1458410/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15">"Temperature"></iframe>
     </td>
     </tr>
     <tr>
