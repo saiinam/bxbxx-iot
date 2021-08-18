@@ -2,7 +2,7 @@
   
 <h1> Name : Kotchakorn Somsanong <br> ID : 62100029 </h1>
   
-<table style=widht="100%" height="100%" align="center">
+<table style=widht="100%" height="100%">
   <tr>
     <td><h2>RESULT</h2></td>
     <td><h2>LAST UPDATE</h2></td>
