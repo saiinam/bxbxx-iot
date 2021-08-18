@@ -12,10 +12,8 @@
         <iframe frameborder="0" style="height:300px;width:500px" src="https://thingspeak.com/channels/1458410/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15">"Humidity"></iframe>
     </td>	
     <td> 
-    < ?php
-        $Temperature = file_get_contents('https://api.thingspeak.com/channels/1458410/fields/1/last.txt');
-        $Humidity = file_get_contents('https://api.thingspeak.com/channels/1458410/fields/2/last.txt');
-      ?>
+      <br> <?php echo "Humidity : ".$Temperature ?> % </br> 
+      <br> <?php echo " Temperature : ".$Humidity ?> °C </br>
    </td>
   </tr>
 
@@ -31,14 +29,15 @@
     </td>
   </tr>
 </table>
-
+  < ?php
+     $Temperature = file_get_contents('https://api.thingspeak.com/channels/1458410/fields/1/last.txt');
+     $Humidity = file_get_contents('https://api.thingspeak.com/channels/1458410/fields/2/last.txt');
+    ?>
 
 <script type="text/JavaScript">
 function timedRefresh(timeoutPeriod) {
     setTimeout("location.reload(true);",timeoutPeriod);
 }
 </script>
- <br> <?php echo "Humidity : ".$Temperature ?> % </br> 
- <br> <?php echo " Temperature : ".$Humidity ?> °C </br>
  
 </body>
