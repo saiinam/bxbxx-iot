@@ -1,9 +1,8 @@
-<div class="jumbotron">
 <body onload="JavaScript:timedRefresh(15000);"> 
   
 <h1> Name : Kotchakorn Somsanong <br> ID : 62100029 </h1>
   
-<table style="width:100%">
+<table style=widht="100%" height="100%" align="center">
   <tr>
     <td><h2>RESULT</td>
   </td>		
@@ -40,4 +39,3 @@
 </table>
  
 </body>
-</div>
